@@ -1151,7 +1151,14 @@
 
 @media screen and (min-width:768px){
     /*Todo o header desktop aqui*/
+    /*Logo Whatsapp página doces*/
+    .logo-w{
+        display: flex;
+        margin: 0 auto;
+    }
     
+    /*Fim Logo Whatsapp página doces*/
+
     .header-menu{
         display: none;
     }
@@ -1826,6 +1833,11 @@
 }
 .ver-maps {
     margin-bottom: 20px;
+}
+.ver-maps a {
+    font-family: 'quicksand',sans-serif;
+    font-weight: 400;
+    color: #4d4d4d;
 }
 .sep {
     width: 300px;
