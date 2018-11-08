@@ -47,7 +47,7 @@
 .redes-sociais{
     position: absolute;
     top:400px;
-    left: 85px;
+    left: 90px;
 }
 .redes-sociais a {
     margin: 10px;
@@ -498,7 +498,6 @@
     font-size: 24px;
     font-family: 'quicksand',sans-serif;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 .nossa-historia h2:after {
     content: "";
@@ -514,6 +513,7 @@
     margin-bottom: 32px;
     width: 340px;
     font-family: 'quicksand',sans-serif;
+    margin-top: 0;
 }
 .nossa-historia img {
     width: 100%;
@@ -547,7 +547,7 @@
     width: 340px;
     font-size: 14px;
     font-family: 'quicksand',sans-serif;
-    margin-top: 32px;
+    margin-top: 10px;
     margin-bottom: 32px;
 }
 .missao img {
@@ -562,12 +562,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 32px;
 }
 .visao h2 {
     font-size: 24px;
     font-family: 'quicksand',sans-serif;
     font-weight: bold;
+    margin-top: 32px;
 }
 .visao h2:after {
     content: "";
@@ -582,7 +582,6 @@
     width: 340px;
     font-size: 14px;
     font-family: 'quicksand',sans-serif;
-    margin-top: 32px;
     margin-bottom: 32px;
 }
 .visao img {
@@ -669,6 +668,7 @@
     text-transform: uppercase;
     font-family: 'quicksand',sans-serif;
     font-weight: bold;
+    letter-spacing: .2em;
 }
 .nome-empresa-intro-doces a {
     width: 200px;
@@ -688,12 +688,16 @@
 /*FIM HEADER*/
 
 /*NOSSOS DOCES*/
+
 .nossos-doces {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.logo-w{
+    display: none;
 }
 .nossos-doces p {
     text-align: center;
@@ -721,13 +725,7 @@
     flex-wrap: wrap;
     margin: 0 auto;
 }
-.doces1 img{
-    width: 100%;
-}
-.doces2 img{
-    width: 100%;
-}
-.doces3 img{
+.nossos-doces div{
     width: 100%;
 }
 /*FIM NOSSOS DOCES*/
@@ -1147,18 +1145,18 @@
 /*FIM página CONTATO*/
 /*---------------------------------------------------------------------*/
 /*MEDIA QUERIES SITE RESPONSIVO*/
-
-
 @media screen and (min-width:768px){
     /*Todo o header desktop aqui*/
     /*Logo Whatsapp página doces*/
     .logo-w{
         display: flex;
         margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
     }
     
     /*Fim Logo Whatsapp página doces*/
-
+    
     .header-menu{
         display: none;
     }
@@ -1510,16 +1508,17 @@
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-        margin-top: -184px
+        margin-top: -184px;
     }
     .nossa-historia img {
         width: auto;
         margin-left: 80px;
+        margin-top: 100px;
     }
     .nossa-historia p {
         position: relative;
         left: 830px;
-        top:430px;
+        top:420px;
         width: 400px;
         font-size: 16px;
     }
@@ -1527,15 +1526,13 @@
         position: absolute;
         left: 800px;
         font-size: 36px;
-        width: 480px
+        width: 480px;
     } 
-    
     .missao{
         display: flex;
         flex-direction: row;
         align-items: center;
-        
-    }
+}
     .missao img{
         width: auto;
         margin-right: -580px;
@@ -1551,7 +1548,7 @@
         left: 110px;
         font-size: 16px;
         width: 400px;
-        top: 1380px;
+        top: 1400px;
     }
     .visao{
         display: flex;
@@ -1560,12 +1557,12 @@
     }
     .visao img{
         width: auto;
-        margin-right: 580px;
+        margin-right: 600px;
     }
     .visao h2 {
         font-size: 36px;
         position: absolute;
-        top:1950px;
+        top:1800px;
         left:900px;
     }
     .visao p {
@@ -1573,7 +1570,7 @@
         left: 760px;
         font-size: 16px;
         width: 400px;
-        top: 1980px;
+        top: 1900px;
     }
     .venha-conhecer h2{
         font-size: 64px;
@@ -1656,6 +1653,9 @@
         flex-wrap: wrap;
         margin: 0 auto;
         margin-bottom: 30px;
+    }
+    .nossos-doces div{
+        width: auto;
     }
     /*FIM PÁGINA DOCES 3*/
     
@@ -1873,13 +1873,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-
-    
-    
-    
-    
-    /*FIM PÁGINA CONTATO 5*/
+/*FIM PÁGINA CONTATO 5*/
         
 }
 /*FIM MEDIA QUERIES*/
