@@ -18,7 +18,7 @@
 .sidenav a {
     padding:10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: #ccc;
     display: block;
     transition: 0.3s;
@@ -40,14 +40,18 @@
 #main {
     transition: margin-left .5s;
     padding: 16px;
-    color: #FFF;
+    color: #fff;
 }
 /*FIM BOTAO HAMBURGUER*/
 /*CABEÇALHO*/
 .redes-sociais{
-    position: absolute;
-    top:400px;
-    left: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 260px;    
 }
 .redes-sociais a {
     margin: 10px;
@@ -59,7 +63,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .cabecalho p {
     color: #fff;
@@ -90,6 +93,7 @@
     color:#fff;
     text-transform: uppercase;
     font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
 }
 .nome-empresa-intro h1{
     font-size: 64px;
@@ -360,7 +364,7 @@
 
 .galeria-inicio{
     background: #ffbfb3;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,7 +383,6 @@
     font-family: 'quicksand',sans-serif;
     color: #fff;
     font-weight: bold;
-   
 }
 .galeria-inicio a {
     width: 120px;
@@ -459,6 +462,7 @@
     color:#fff;
     text-transform: uppercase;
     font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
 }
 .nome-empresa-intro-conheca h1{
     font-size: 64px;
@@ -661,6 +665,7 @@
     color:#fff;
     text-transform: uppercase;
     font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
 }
 .nome-empresa-intro-doces h1{
     font-size: 64px;
@@ -769,6 +774,7 @@
     color:#fff;
     text-transform: uppercase;
     font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
 }
 .nome-empresa-intro-galeria h1{
     font-size: 64px;
@@ -847,7 +853,7 @@
 
 /*HEADER*/
 .header-intro-contato{
-    height: 350px;
+    height: 400px;
     background: #ffbfb3;
 }
 .nome-empresa-intro-contato {
@@ -862,6 +868,7 @@
     color:#fff;
     text-transform: uppercase;
     font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
 }
 .nome-empresa-intro-contato h1{
     font-size: 64px;
@@ -1148,6 +1155,12 @@
 @media screen and (min-width:768px){
     /*Todo o header desktop aqui*/
     /*Logo Whatsapp página doces*/
+    .redes-sociais{
+        position: absolute;
+        top:90px;
+        left:50px;
+    }    
+    
     .logo-w{
         display: flex;
         margin: 0 auto;
@@ -1451,15 +1464,7 @@
     .rodape-bg h3 {
         font-size: 18px;
     }
-    .redes-sociais{
-        position: absolute;
-        top: 100px;
-        left: 50px;
-    }
-    .redes-sociais a{
-        margin: 3px;
-        padding: 10px;
-    }
+    
     .paralax{
         display: flex;
         flex-direction: row-reverse;
