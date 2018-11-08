@@ -1151,7 +1151,11 @@
 /*FIM RODAPE*/
 /*FIM página CONTATO*/
 /*---------------------------------------------------------------------*/
-/*MEDIA QUERIES SITE RESPONSIVO*/
+
+
+
+
+/* Desktop MEDIA QUERIES SITE RESPONSIVO*/
 @media screen and (min-width:768px){
     /*Todo o header desktop aqui*/
     /*Logo Whatsapp página doces*/
@@ -1486,10 +1490,11 @@
     
     /*COMEÇO PÁGINA 2 CONHEÇA*/
     .header-intro-conheca{
-        height: 500px;       
+        height: 550px;       
     }
     .nome-empresa-intro-conheca h2{
         font-size: 64px;
+        margin-top: 22px;
     }
     .nome-empresa-intro-conheca h1{
         font-size: 144px;
@@ -1600,14 +1605,16 @@
     /*COMEÇO PÁGINA DOCES 3 */
     
     .header-intro-doces {
-        height: 500px;
+        height: 550px;
     }
     .nome-empresa-intro-doces h1{
         font-size: 144px;
         letter-spacing: .1em;
     }
     .nome-empresa-intro-doces h2{
-        font-size: 64px;   
+        font-size: 64px;
+        margin-top: 22px;
+
     }
     .nome-empresa-intro-doces a {
         width: 250px;
@@ -1667,7 +1674,7 @@
     /*FIM PÁGINA GALERIA 4*/
     
     .header-intro-galeria{
-        height: 500px;
+        height: 550px;
     }
     .header-intro-galeria h1{
         font-size: 144px;
@@ -1675,6 +1682,7 @@
     }
     .header-intro-galeria h2 {
         font-size: 64px;
+        margin-top: 22px;
     }
     .nome-empresa-intro-galeria a {
         width: 250px;
@@ -1704,7 +1712,7 @@
     
     /*PÁGINA CONTATO 5*/
     .header-intro-contato{
-        height: 500px;
+        height: 550px;
     }
     .header-intro-contato h1 {
         font-size: 144px;
@@ -1712,6 +1720,7 @@
     }
     .header-intro-contato h2 {
         font-size: 64px;
+        margin-top: 22px;
     }
     .nome-empresa-intro-contato a {
         width: 250px;
